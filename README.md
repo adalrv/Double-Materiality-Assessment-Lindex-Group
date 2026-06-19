@@ -11,37 +11,41 @@ This repository contains a dynamic **Double Materiality Assessment Dashboard** d
 ## 📊 Dashboard
 The dashboard is split into three interconnected views with custom UI buttons that allow users to navigate flawlessly between perspectives:
 
-1. **Main Matrix (`image_2ddc38.png`):** Shows the consolidated Double Materiality perspective, mapping overall Impact and Financial scores.
+1. **Main Matrix (`image_2ddc38.png`):** Shows the consolidated Double Materiality perspective, mapping overall Impact and Financial scores
+
+![](DMAAssessment.png)
 
 2. **Impact Materiality Perspective (`image_2ddc01.png`):** Maps the possible impacts by Scale and Scope.
-   
+
+![](ImpactMateriality.png)
+
 3. **Financial Materiality Perspective (`image_2ddb47.png`):** Displays potential Business Risks and Opportunities categorized by Likelihood and Potential Magnitude.
 
+![](FinancialMateriality.png)
 
-## ⚖️ Strategic Framework Selection: Why ESRS?
-A key element of this project was choosing the right regulatory architecture. While frameworks like GRI and SASB are widely respected, **ESRS** was selected for this assessment due to the following strategic reasons:
+## ⚖️ Framework Selection: Why ESRS?
+A key element of this project was choosing the right regulatory architecture. While frameworks like GRI and SASB are widely respected, **ESRS** was selected for this assessment due to the following reasons:
 
-* 🇪🇺 **CSRD Mandate Alignment:** Under the EU Corporate Sustainability Reporting Directive (CSRD), the **ESRS** introduces a mandatory, legally binding obligation for Double Materiality. GRI and SASB remain voluntary disclosures.
+* 📜 **CSRD Mandate Alignment:** Under the EU Corporate Sustainability Reporting Directive (CSRD), the **ESRS** introduces a mandatory, legally binding obligation for Double Materiality. GRI and SASB remain voluntary disclosures.
 * 🔗 **True Double Materiality Integration:** 
-  * **GRI** historically focuses almost exclusively on *Impact Materiality* (how a company impacts the world).
-  * **SASB** focuses primarily on *Financial Materiality* (how ESG issues create financial risks for investors).
+  * **GRI** historically focuses almost exclusively on *Impact Materiality*.
+  * **SASB** focuses primarily on *Financial Materiality*.
   * **ESRS** legally harmonizes both dimensions into a strict, unified scoring matrix.
 * 📊 **Rigor & Auditability:** ESRS sets strict quantitative boundaries and precise disclosure requirements that convert qualitative corporate risks into auditable data streams.
 
 
-
-## 🛠️ Advanced Data Visualization Tech: Jittering in Tableau
+## 🛠️ Data Visualization Techniques
 When plotting sustainability scores (such as Likelihood or Scale from 1 to 5), multiple ESG topics often end up with identical coordinates. In a standard scatterplot, this creates **overlapping marks**, hiding crucial data points.
 
-To solve this issue and ensure complete transparency, a **Jittering technique** was applied in Tableau:
-* 📉 **The Logic:** A controlled, randomized offset was added to the data's X and Y coordinates inside the Tableau calculated fields (e.g., using `RANDOM()` coefficients or subtle row indices).
-* 🎯 **The Result:** Marks with identical scores are gently separated from each other horizontally or vertically. This avoids data clustering, exposes overlapping variables (such as sub-topics under `E1.2`, `S2.3`, or `G1.5`), and ensures every single ESG risk is fully visible to decision-makers.
+To solve this issue and ensure complete transparency, **Jittering ** was applied in Tableau:
+* 💻 **The Code:** A controlled, randomized offset was added to the data's X and Y coordinates inside the Tableau calculated fields (e.g., `[Scale Value] + ((RANDOM() - 0.5) * 0.15)`).
+* 🎯 **The Result:** Marks with identical scores are gently separated from each other horizontally or vertically. This avoids data clustering, exposes overlapping variables, and ensures every single ESG risk is fully visible to decision-makers.
 
 
-## 🌐 Data Engineering & Scoring Model
+## 🌐 Data & Scoring Model
 The matrix structure is powered by an Excel data model mapped according to European standards:
-* 📋 **Dataset Details:** Organizes disclosures across Environmental (`E`), Social (`S`), and Governance (`G`) main pillars, broken down into numbered sub-topics (e.g., Climate Change, Working Conditions, Resource Outflows).
-* 🧮 **Scoring Pipeline:** Consolidates stakeholder feedback data regarding **Scale**, **Scope**, **Remediability**, **Likelihood**, and **Magnitude** to automatically generate final coordinates.
+* 📋 **Dataset Details:** Organizes disclosures across Environmental, Social, and Governance main pillars, broken down into numbered sub-topics (e.g., Climate Change, Working Conditions, Resource Outflows).
+* 🧮 **Scoring:** Simulation of stakeholder feedback data based on previous financial and ESG annual reports of Lindex for: **Scale**, **Scope**, **Remediability**, **Likelihood**, and **Magnitude** to automatically generate final coordinates.
 * 🔀 **Shape Mappings:** Risks are represented as circles (`●`) and Opportunities as triangles (`▲`), allowing executive boards to instantly differentiate financial threats from upside value creation.
 
 
@@ -52,12 +56,10 @@ The matrix structure is powered by an Excel data model mapped according to Europ
 * 📈 **Executive Read-Ready:** Transitioning from long, text-heavy sustainability spreadsheets to a reactive 3-way dashboard enables immediate filtering by Topic or Impact, cutting down ESG audit preparation times drastically.
 
 
-
-## 🛠️ Tools & Tech Stack
+## 🛠️ Tools
 * **Visualization:** Tableau Desktop / Public 📊 (Utilizing dynamic sheet-swapping actions, shapes, and jittered coordinate plots)
 * **Framework Methodology:** ESRS (European Sustainability Reporting Standards) 🌿
 * **Data Prep & Model:** Microsoft Excel 🧮
-
 
 
 ## 🚀 How to Interact with the Dashboard
