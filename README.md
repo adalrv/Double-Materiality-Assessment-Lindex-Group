@@ -45,7 +45,7 @@ To solve this issue and ensure complete transparency, **Jittering ** was applied
 ## 🌐 Data & Scoring Model
 The matrix structure is powered by an Excel data model mapped according to European standards:
 * 📋 **Dataset Details:** Organizes disclosures across Environmental, Social, and Governance main pillars, broken down into numbered sub-topics (e.g., Climate Change, Working Conditions, Resource Outflows).
-* 🧮 **Scoring:** Simulation of stakeholder feedback data based on previous financial and ESG annual reports of Lindex for: **Scale**, **Scope**, **Remediability**, **Likelihood**, and **Magnitude** to automatically generate final coordinates.
+* 🧮 **Scoring:** I simulate the stakeholder feedback data based on previous financial and ESG annual reports of Lindex for: **Scale**, **Scope**, **Remediability**, **Likelihood**, and **Magnitude** to generate final coordinates.
 * 🔀 **Shape Mappings:** Risks are represented as circles (`●`) and Opportunities as triangles (`▲`), allowing executive boards to instantly differentiate financial threats from upside value creation.
 
 
@@ -57,13 +57,13 @@ The matrix structure is powered by an Excel data model mapped according to Europ
 
 
 ## 🛠️ Tools
-* **Visualization:** Tableau Desktop / Public 📊 (Utilizing dynamic sheet-swapping actions, shapes, and jittered coordinate plots)
+* **Visualization:** Tableau Desktop / Public 📊 (Utilizing dynamic sheet-swapping, shapes, and jittered coordinate plots)
 * **Framework Methodology:** ESRS (European Sustainability Reporting Standards) 🌿
 * **Data Prep & Model:** Microsoft Excel 🧮
 
 
-## 🚀 How to Interact with the Dashboard
-1. Download the dataset and open the `.twbx` workbook.
+## 🎮 How to Interact with the Dashboard
+1. Download the [Dataset](DMA.xlsx).
 2. Click the **Blue button (Impact Materiality)** or the **Yellow button (Financial Materiality)** to navigate between deeper scoring methodologies.
 3. Click the **Teal button (Double Materiality)** to return to the core decision-making matrix.
 4. Filter by specific sub-topics or impacts via the interactive side panels.
