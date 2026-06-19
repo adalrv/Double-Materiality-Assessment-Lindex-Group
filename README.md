@@ -46,14 +46,13 @@ To solve this issue and ensure complete transparency, **Jittering ** was applied
 The matrix structure is powered by an Excel data model mapped according to European standards:
 * 📋 **Dataset Details:** Organizes disclosures across Environmental, Social, and Governance main pillars, broken down into numbered sub-topics (e.g., Climate Change, Working Conditions, Resource Outflows).
 * 🧮 **Scoring:** I simulate the stakeholder feedback data based on previous financial and ESG annual reports of Lindex for: **Scale**, **Scope**, **Remediability**, **Likelihood**, and **Magnitude** to generate final coordinates.
-* 🔀 **Shape Mappings:** Risks are represented as circles (`●`) and Opportunities as triangles (`▲`), allowing executive boards to instantly differentiate financial threats from upside value creation.
-
+* 🔀 **Shape Mappings:** Risks are represented as circles (`●`) and Opportunities as triangles (`▲`), allowing executive boards to differentiate threats from opportunities.
 
 
 ## 💡 Key Business Conclusions
-* 🚨 **High-Priority Focus (Top Right):** Sub-topic `E1.2` stands out as highly material on both axes, signaling an immediate need for capital allocation toward mitigation strategies.
-* 📊 **Risk vs. Opportunity Separation:** The financial view reveals that while some social sub-topics represent immediate operational risks, environmental adjustments like `E5.2` open up long-term efficiency opportunities.
-* 📈 **Executive Read-Ready:** Transitioning from long, text-heavy sustainability spreadsheets to a reactive 3-way dashboard enables immediate filtering by Topic or Impact, cutting down ESG audit preparation times drastically.
+* 🚨 **High-Priority Focus (Top Right):** Sub-topic `E1.2` (Pollution of Water) stands out as highly material on both axes, signaling an immediate need for capital allocation toward mitigation strategies for water pollution. This problem is key due to the textile nature of the company.
+* 🌍 **Climate Growth:** While greenhouse gas emissions are a big issue, cutting emissions is a huge business opportunity. It allows the company to get sustainable funding (like green bonds) and gives it a stronger, better brand image than competitors.
+* 🔄 **Fixing Waste Risks:** Manufacturing waste and using raw materials create high risks due to strict new European laws. To comply with these laws, Lindex must move fast toward a circular model, which will also lower material costs over time.
 
 
 ## 🛠️ Tools
@@ -63,10 +62,11 @@ The matrix structure is powered by an Excel data model mapped according to Europ
 
 
 ## 🎮 How to Interact with the Dashboard
-1. Download the [Dataset](DMA.xlsx).
-2. Click the **Blue button (Impact Materiality)** or the **Yellow button (Financial Materiality)** to navigate between deeper scoring methodologies.
-3. Click the **Teal button (Double Materiality)** to return to the core decision-making matrix.
-4. Filter by specific sub-topics or impacts via the interactive side panels.
+1. Download the [Dataset](DMALindexGroup.xlsx).
+2. 2. Download and open the [Tableau](DMALindexGroup.twbx) file using Tableau Desktop or [Tableau Public](https://public.tableau.com/app/profile/adalberto.rosendo.vargas/viz/DMALindexGroup/DoubleM).
+3. Click the **Blue button (Impact Materiality)** or the **Yellow button (Financial Materiality)** to navigate between the parts of the assessment.
+4. Click the **Teal button (Double Materiality)** to return to the main matrix.
+5. Filter by specific sub-topics or impacts via the interactive side panels.
 
 ---
 *Developed by Adalberto Rosendo Vargas* 🚀
