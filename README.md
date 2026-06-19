@@ -1,6 +1,6 @@
-# 🌿 Corporate Double Materiality Assessment Dashboard
+# Double Materiality Assessment Dashboard
 
-An interactive, data-driven ESG project analyzing sustainability topics through a Double Materiality framework. Built using **Tableau** and **Excel** in compliance with the **European Sustainability Reporting Standards (ESRS)**.
+An interactive, data-driven ESG project analyzing sustainability topics through a Double Materiality framework of Lindex Group. Built using **Tableau** and **Excel** in compliance with the **European Sustainability Reporting Standards (ESRS)**.
 
 
 ## 🎯 Project Overview
@@ -12,7 +12,9 @@ This repository contains a dynamic **Double Materiality Assessment Dashboard** d
 The dashboard is split into three interconnected views with custom UI buttons that allow users to navigate flawlessly between perspectives:
 
 1. **Main Matrix (`image_2ddc38.png`):** Shows the consolidated Double Materiality perspective, mapping overall Impact and Financial scores.
+
 2. **Impact Materiality Perspective (`image_2ddc01.png`):** Maps the possible impacts by Scale and Scope.
+   
 3. **Financial Materiality Perspective (`image_2ddb47.png`):** Displays potential Business Risks and Opportunities categorized by Likelihood and Potential Magnitude.
 
 
