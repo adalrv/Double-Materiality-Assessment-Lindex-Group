@@ -65,7 +65,7 @@ The matrix structure is powered by an Excel data model mapped according to Europ
 1. Download the [Dataset](DMALindexGroup.xlsx).
 2. Download and open the [Tableau](DMALindexGroup.twbx) file using Tableau Desktop or [Tableau Public](https://public.tableau.com/app/profile/adalberto.rosendo.vargas/viz/DMALindexGroup/DoubleM).
 3. Click the **Blue button (Impact Materiality)** or the **Yellow button (Financial Materiality)** to navigate between the parts of the assessment.
-4. Click the **Teal button (Double Materiality)** to return to the main matrix.
+4. Click the **Green button (Double Materiality)** to return to the main matrix.
 5. Filter by specific sub-topics or impacts via the interactive side panels.
 
 ---
